@@ -4,10 +4,10 @@
   "Description": "A New Player, terrified of everything.",
   "Variables": {
     "Enabled": true,
-    "CanBeRandomlyAssigned": false,
+    "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 25.0,
-    "MaxLevel": 20.0,
-    "RandomChanceIfMeetRequirements": 20.0,
+    "MaxLevel": 10.0,
+    "RandomChanceIfMeetRequirements": 50.0,
     "PowerLevelMin": 0.0,
     "PowerLevelMax": 40.0,
     "HoldGroundBaseTime": 0.6,
