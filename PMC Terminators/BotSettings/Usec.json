@@ -242,19 +242,19 @@
     "hard": {
       "Aiming": {
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 85.0,
+        "FasterCQBReactionsDistance": 65.0,
         "FasterCQBReactionsMinimum": 0.05,
         "AccuracySpreadMulti": 0.8,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "MAX_AIM_TIME": 1.2,
+        "MAX_AIM_TIME": 1.5,
         "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.15,
-        "BASE_HIT_AFFECTION_MIN_ANG": 0.7,
-        "BASE_HIT_AFFECTION_MAX_ANG": 2.5
+        "BASE_HIT_AFFECTION_MIN_ANG": 0.5,
+        "BASE_HIT_AFFECTION_MAX_ANG": 1.8
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -267,7 +267,7 @@
         "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "DamageCoeff": 1.1,
-        "HearingSense": 1.5,
+        "HearingSense": 1.15,
         "CanRun": true,
         "CanGrenade": true
       },
@@ -288,23 +288,23 @@
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 0.8,
-        "CloseVisionSpeed": 0.1,
+        "CloseVisionSpeed": 0.3,
         "FarVisionSpeed": 0.8,
-        "CloseFarThresh": 100.0,
+        "CloseFarThresh": 70.0,
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
-        "NIGHT_VISION_ON": 75.0,
-        "NIGHT_VISION_OFF": 125.0,
-        "NIGHT_VISION_DIST": 125.0,
-        "VISIBLE_ANG_NIGHTVISION": 90.0,
+        "NIGHT_VISION_ON": 50.0,
+        "NIGHT_VISION_OFF": 150.0,
+        "NIGHT_VISION_DIST": 200.0,
+        "VISIBLE_ANG_NIGHTVISION": 125.0,
         "LOOK_THROUGH_PERIOD_BY_HIT": 0.0,
-        "LightOnVisionDistance": 40.0,
-        "VISIBLE_ANG_LIGHT": 45.0,
-        "VISIBLE_DISNACE_WITH_LIGHT": 70.0,
+        "LightOnVisionDistance": 20.0,
+        "VISIBLE_ANG_LIGHT": 60.0,
+        "VISIBLE_DISNACE_WITH_LIGHT": 100.0,
         "GOAL_TO_FULL_DISSAPEAR": 0.5,
         "GOAL_TO_FULL_DISSAPEAR_GREEN": 0.15,
-        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.01,
+        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.05,
         "MAX_VISION_GRASS_METERS": 1.0,
         "MAX_VISION_GRASS_METERS_OPT": 1.0,
         "MAX_VISION_GRASS_METERS_FLARE": 4.0,
@@ -313,7 +313,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.5,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 0.0,
         "CanTalk": false,
@@ -347,7 +347,7 @@
         "ScatterMultiplier": 1.0
       },
       "Shoot": {
-        "RecoilMultiplier": 0.85,
+        "RecoilMultiplier": 0.95,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
