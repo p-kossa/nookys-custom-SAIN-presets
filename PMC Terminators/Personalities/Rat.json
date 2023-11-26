@@ -9,7 +9,7 @@
     "MaxLevel": 100.0,
     "RandomChanceIfMeetRequirements": 25.0,
     "PowerLevelMin": 0.0,
-    "PowerLevelMax": 190.0,
+    "PowerLevelMax": 250.0,
     "HoldGroundBaseTime": 1.0,
     "HoldGroundMinRandom": 0.66,
     "HoldGroundMaxRandom": 1.5,
