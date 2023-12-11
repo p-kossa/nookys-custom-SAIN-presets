@@ -32,7 +32,8 @@
     "NoBushESPFrequency": 0.1,
     "NoBushESPEnhancedRatio": 0.5,
     "NoBushESPDebugMode": false,
-    "HeadShotProtection": true
+    "HeadShotProtection": true,
+    "DisableBotTalkPatching": true
   },
   "Personality": {
     "AllGigaChads": false,

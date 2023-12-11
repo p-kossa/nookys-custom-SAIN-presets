@@ -344,7 +344,7 @@
       },
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0
+        "ScatterMultiplier": 0.7
       },
       "Shoot": {
         "RecoilMultiplier": 0.95,
