@@ -244,8 +244,8 @@
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 65.0,
         "FasterCQBReactionsMinimum": 0.05,
-        "AccuracySpreadMulti": 0.8,
-        "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
+        "AccuracySpreadMulti": 0.9,
+        "MAX_AIMING_UPGRADE_BY_TIME": 0.5,
         "MAX_AIM_TIME": 1.5,
         "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
@@ -253,8 +253,8 @@
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.15,
-        "BASE_HIT_AFFECTION_MIN_ANG": 0.5,
-        "BASE_HIT_AFFECTION_MAX_ANG": 1.8
+        "BASE_HIT_AFFECTION_MIN_ANG": 0.3,
+        "BASE_HIT_AFFECTION_MAX_ANG": 1.5
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -317,7 +317,7 @@
         "WeaponProficiency": 0.6,
         "TalkFrequency": 0.0,
         "CanTalk": false,
-        "BotTaunts": true,
+        "BotTaunts": false,
         "SquadTalk": false,
         "SquadMemberTalkFreq": 0.0,
         "SquadLeadTalkFreq": 0.0,
@@ -344,10 +344,10 @@
       },
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 0.7
+        "ScatterMultiplier": 0.95
       },
       "Shoot": {
-        "RecoilMultiplier": 0.95,
+        "RecoilMultiplier": 0.8,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,

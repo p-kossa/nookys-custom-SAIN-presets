@@ -14,7 +14,7 @@
   },
   "Flashlight": {
     "DazzleEffectiveness": 0.25,
-    "MaxDazzleRange": 10.64,
+    "MaxDazzleRange": 7.26,
     "DebugFlash": false,
     "SillyMode": false
   },
@@ -41,13 +41,13 @@
     "AllRats": false
   },
   "Mind": {
-    "GlobalAggression": 1.5
+    "GlobalAggression": 1.2
   },
   "Hearing": {
-    "GunshotAudioMultiplier": 1.05,
-    "FootstepAudioMultiplier": 1.1,
-    "SuppressorModifier": 0.5,
-    "SubsonicModifier": 0.33,
+    "GunshotAudioMultiplier": 0.9,
+    "FootstepAudioMultiplier": 0.75,
+    "SuppressorModifier": 0.6,
+    "SubsonicModifier": 0.25,
     "HearingDistances": {
       "Caliber9x18PM": 110.0,
       "Caliber9x19PARA": 110.0,
@@ -161,7 +161,7 @@
   },
   "Look": {
     "GlobalVisionDistanceMultiplier": 1.0,
-    "GlobalVisionSpeedModifier": 0.75,
+    "GlobalVisionSpeedModifier": 0.9,
     "NightTimeVisionModifier": 0.2,
     "HourDawnStart": 6.0,
     "HourDawnEnd": 8.0,
