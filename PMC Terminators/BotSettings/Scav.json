@@ -143,8 +143,8 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 120.0,
+        "VisibleAngle": 150.0,
+        "VisibleDistance": 100.0,
         "GainSightCoef": 0.2,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
@@ -165,14 +165,14 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 50.0
+        "MaxFootstepAudioDistance": 40.0
       },
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 1.0,
         "CloseVisionSpeed": 1.0,
         "FarVisionSpeed": 1.0,
-        "CloseFarThresh": 50.0,
+        "CloseFarThresh": 45.0,
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
@@ -195,7 +195,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.9,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 4.0,
         "CanTalk": true,

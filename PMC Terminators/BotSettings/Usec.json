@@ -242,7 +242,7 @@
     "hard": {
       "Aiming": {
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 65.0,
+        "FasterCQBReactionsDistance": 70.0,
         "FasterCQBReactionsMinimum": 0.05,
         "AccuracySpreadMulti": 0.9,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.5,
@@ -261,13 +261,13 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 175.09,
-        "VisibleDistance": 220.0,
+        "VisibleAngle": 170.0,
+        "VisibleDistance": 200.0,
         "GainSightCoef": 0.05,
         "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "DamageCoeff": 1.1,
-        "HearingSense": 1.15,
+        "HearingSense": 1.05,
         "CanRun": true,
         "CanGrenade": true
       },
@@ -283,7 +283,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 70.0
+        "MaxFootstepAudioDistance": 65.0
       },
       "Lay": {},
       "Look": {
@@ -297,7 +297,7 @@
         "NIGHT_VISION_ON": 50.0,
         "NIGHT_VISION_OFF": 150.0,
         "NIGHT_VISION_DIST": 200.0,
-        "VISIBLE_ANG_NIGHTVISION": 125.0,
+        "VISIBLE_ANG_NIGHTVISION": 150.0,
         "LOOK_THROUGH_PERIOD_BY_HIT": 0.0,
         "LightOnVisionDistance": 20.0,
         "VISIBLE_ANG_LIGHT": 60.0,
