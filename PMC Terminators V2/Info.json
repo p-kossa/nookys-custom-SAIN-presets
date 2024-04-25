@@ -1,7 +1,10 @@
 {
-  "Name": "PMC Terminators V2",
-  "Description": "Good Luck Soldier",
-  "Creator": "nooky",
-  "SAINVersion": "2.1.12",
-  "DateCreated": "04/04/2024 00:00:00"
+  "Name": "term",
+  "Description": "Enter Description Here",
+  "Creator": "Your Name Here",
+  "SAINVersion": "2.2.0",
+  "DateCreated": "04/25/2024 00:00:00",
+  "IsCustom": true,
+  "PresetCopiedFrom": "3. Default",
+  "CanEditName": true
 }
