@@ -5,18 +5,20 @@
   "Settings": {
     "easy": {
       "Aiming": {
+        "DistanceAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
+        "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
-        "BASE_HIT_AFFECTION_DELAY_SEC": 0.5,
+        "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
+        "BASE_HIT_AFFECTION_DELAY_SEC": 1.0,
         "BASE_HIT_AFFECTION_MIN_ANG": 3.0,
         "BASE_HIT_AFFECTION_MAX_ANG": 5.0
       },
@@ -25,15 +27,12 @@
       },
       "Change": {},
       "Core": {
-        "SAINEnabled": true,
         "VisibleAngle": 160.0,
         "VisibleDistance": 380.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.002,
         "ScatteringClosePerMeter": 0.12,
-        "DamageCoeff": 1.33,
         "HearingSense": 1.0,
-        "CanRun": true,
         "CanGrenade": true
       },
       "Grenade": {
@@ -48,7 +47,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 50.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -88,28 +87,15 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true,
-        "CHANCE_FUCK_YOU_ON_CONTACT_100": 0.0,
-        "SURGE_KIT_ONLY_SAFE_CONTAINER": false,
-        "SEC_TO_MORE_DIST_TO_RUN": 0.0,
-        "DIST_TO_STOP_RUN_ENEMY": 0.0,
-        "NO_RUN_AWAY_FOR_SAFE": true,
-        "CAN_USE_MEDS": true,
-        "CAN_USE_FOOD_DRINK": true
+        "EnableExtracts": true
       },
-      "Move": {
-        "BASE_ROTATE_SPEED": 265.0,
-        "FIRST_TURN_SPEED": 275.0,
-        "FIRST_TURN_BIG_SPEED": 300.0,
-        "TURN_SPEED_ON_SPRINT": 320.0,
-        "RUN_IF_GAOL_FAR_THEN": 0.0,
-        "CHANCE_TO_RUN_IF_NO_AMMO_0_100": 100.0,
-        "SEC_TO_CHANGE_TO_RUN": 0.0,
-        "RUN_TO_COVER_MIN": 0.0
-      },
+      "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0
+        "ScatterMultiplier": 1.0,
+        "HandDamageRecoilMulti": 1.5,
+        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
@@ -124,18 +110,20 @@
     },
     "normal": {
       "Aiming": {
+        "DistanceAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
+        "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
-        "BASE_HIT_AFFECTION_DELAY_SEC": 0.5,
+        "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
+        "BASE_HIT_AFFECTION_DELAY_SEC": 1.0,
         "BASE_HIT_AFFECTION_MIN_ANG": 3.0,
         "BASE_HIT_AFFECTION_MAX_ANG": 5.0
       },
@@ -144,15 +132,12 @@
       },
       "Change": {},
       "Core": {
-        "SAINEnabled": true,
         "VisibleAngle": 160.0,
         "VisibleDistance": 380.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.002,
         "ScatteringClosePerMeter": 0.12,
-        "DamageCoeff": 1.33,
         "HearingSense": 1.0,
-        "CanRun": true,
         "CanGrenade": true
       },
       "Grenade": {
@@ -167,7 +152,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 50.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -207,28 +192,15 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true,
-        "CHANCE_FUCK_YOU_ON_CONTACT_100": 0.0,
-        "SURGE_KIT_ONLY_SAFE_CONTAINER": false,
-        "SEC_TO_MORE_DIST_TO_RUN": 0.0,
-        "DIST_TO_STOP_RUN_ENEMY": 0.0,
-        "NO_RUN_AWAY_FOR_SAFE": true,
-        "CAN_USE_MEDS": true,
-        "CAN_USE_FOOD_DRINK": true
+        "EnableExtracts": true
       },
-      "Move": {
-        "BASE_ROTATE_SPEED": 265.0,
-        "FIRST_TURN_SPEED": 275.0,
-        "FIRST_TURN_BIG_SPEED": 300.0,
-        "TURN_SPEED_ON_SPRINT": 320.0,
-        "RUN_IF_GAOL_FAR_THEN": 0.0,
-        "CHANCE_TO_RUN_IF_NO_AMMO_0_100": 100.0,
-        "SEC_TO_CHANGE_TO_RUN": 0.0,
-        "RUN_TO_COVER_MIN": 0.0
-      },
+      "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0
+        "ScatterMultiplier": 1.0,
+        "HandDamageRecoilMulti": 1.5,
+        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
@@ -243,18 +215,20 @@
     },
     "hard": {
       "Aiming": {
+        "DistanceAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
+        "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
-        "BASE_HIT_AFFECTION_DELAY_SEC": 0.5,
+        "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
+        "BASE_HIT_AFFECTION_DELAY_SEC": 1.0,
         "BASE_HIT_AFFECTION_MIN_ANG": 3.0,
         "BASE_HIT_AFFECTION_MAX_ANG": 5.0
       },
@@ -263,15 +237,12 @@
       },
       "Change": {},
       "Core": {
-        "SAINEnabled": true,
         "VisibleAngle": 160.0,
         "VisibleDistance": 380.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.002,
         "ScatteringClosePerMeter": 0.12,
-        "DamageCoeff": 1.33,
         "HearingSense": 1.0,
-        "CanRun": true,
         "CanGrenade": true
       },
       "Grenade": {
@@ -286,7 +257,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 50.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -326,28 +297,15 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true,
-        "CHANCE_FUCK_YOU_ON_CONTACT_100": 0.0,
-        "SURGE_KIT_ONLY_SAFE_CONTAINER": false,
-        "SEC_TO_MORE_DIST_TO_RUN": 0.0,
-        "DIST_TO_STOP_RUN_ENEMY": 0.0,
-        "NO_RUN_AWAY_FOR_SAFE": true,
-        "CAN_USE_MEDS": true,
-        "CAN_USE_FOOD_DRINK": true
+        "EnableExtracts": true
       },
-      "Move": {
-        "BASE_ROTATE_SPEED": 265.0,
-        "FIRST_TURN_SPEED": 275.0,
-        "FIRST_TURN_BIG_SPEED": 300.0,
-        "TURN_SPEED_ON_SPRINT": 320.0,
-        "RUN_IF_GAOL_FAR_THEN": 0.0,
-        "CHANCE_TO_RUN_IF_NO_AMMO_0_100": 100.0,
-        "SEC_TO_CHANGE_TO_RUN": 0.0,
-        "RUN_TO_COVER_MIN": 0.0
-      },
+      "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0
+        "ScatterMultiplier": 1.0,
+        "HandDamageRecoilMulti": 1.5,
+        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
@@ -362,18 +320,20 @@
     },
     "impossible": {
       "Aiming": {
+        "DistanceAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
+        "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "AIMING_TYPE": 4,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
-        "BASE_HIT_AFFECTION_DELAY_SEC": 0.5,
+        "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
+        "BASE_HIT_AFFECTION_DELAY_SEC": 1.0,
         "BASE_HIT_AFFECTION_MIN_ANG": 3.0,
         "BASE_HIT_AFFECTION_MAX_ANG": 5.0
       },
@@ -382,15 +342,12 @@
       },
       "Change": {},
       "Core": {
-        "SAINEnabled": true,
         "VisibleAngle": 160.0,
         "VisibleDistance": 380.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.002,
         "ScatteringClosePerMeter": 0.12,
-        "DamageCoeff": 1.33,
         "HearingSense": 1.0,
-        "CanRun": true,
         "CanGrenade": true
       },
       "Grenade": {
@@ -405,7 +362,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 50.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -445,28 +402,15 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true,
-        "CHANCE_FUCK_YOU_ON_CONTACT_100": 0.0,
-        "SURGE_KIT_ONLY_SAFE_CONTAINER": false,
-        "SEC_TO_MORE_DIST_TO_RUN": 0.0,
-        "DIST_TO_STOP_RUN_ENEMY": 0.0,
-        "NO_RUN_AWAY_FOR_SAFE": true,
-        "CAN_USE_MEDS": true,
-        "CAN_USE_FOOD_DRINK": true
+        "EnableExtracts": true
       },
-      "Move": {
-        "BASE_ROTATE_SPEED": 265.0,
-        "FIRST_TURN_SPEED": 275.0,
-        "FIRST_TURN_BIG_SPEED": 300.0,
-        "TURN_SPEED_ON_SPRINT": 320.0,
-        "RUN_IF_GAOL_FAR_THEN": 0.0,
-        "CHANCE_TO_RUN_IF_NO_AMMO_0_100": 100.0,
-        "SEC_TO_CHANGE_TO_RUN": 0.0,
-        "RUN_TO_COVER_MIN": 0.0
-      },
+      "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0
+        "ScatterMultiplier": 1.0,
+        "HandDamageRecoilMulti": 1.5,
+        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
