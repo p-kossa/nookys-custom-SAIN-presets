@@ -239,7 +239,7 @@
       "Core": {
         "VisibleAngle": 170.0,
         "VisibleDistance": 220.0,
-        "GainSightCoef": 0.01,
+        "GainSightCoef": 0.03,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.2,
@@ -344,7 +344,7 @@
       "Core": {
         "VisibleAngle": 170.0,
         "VisibleDistance": 220.0,
-        "GainSightCoef": 0.01,
+        "GainSightCoef": 0.03,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.2,
